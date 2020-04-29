@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.0135">
+<testcase classname="Webservice test" name="User tests weather web service" time="19.0135">
+<system-out><![CDATA[Given User defines base URL.................................................passed
+When User validates status code.............................................passed
+And User validates headers..................................................passed
+Then User validates response body...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

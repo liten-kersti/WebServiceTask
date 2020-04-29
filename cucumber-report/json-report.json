@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14019434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User tests weather web service",
+        "description": "",
+        "id": "webservice-test;user-tests-weather-web-service",
+        "after": [
+          {
+            "result": {
+              "duration": 951718300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 984163100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User defines base URL",
+            "match": {
+              "location": "MyStepdefs.userDefinesBaseURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2045938900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User validates status code",
+            "match": {
+              "location": "MyStepdefs.userValidatesStatusCode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488286500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User validates headers",
+            "match": {
+              "location": "MyStepdefs.userValidatesHeaders()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 523959300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validates response body",
+            "match": {
+              "location": "MyStepdefs.userValidatesResponseBody()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Webservice test",
+    "description": "",
+    "id": "webservice-test",
+    "keyword": "Feature",
+    "uri": "Scenario.feature"
+  }
+]
